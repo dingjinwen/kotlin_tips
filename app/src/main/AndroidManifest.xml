@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sw.kotlin.tips">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.sw.kotlin.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.sw.kotlin.tip2.KotlinTip2Activity" />
+        <activity android:name="com.sw.kotlin.tip3.KotlinTip3Activity" />
+        <activity android:name="com.sw.kotlin.tip4.KotlinTip4Activity" />
+        <activity android:name="com.sw.kotlin.tip5.KotlinTip5Activity" />
+        <activity android:name="com.sw.kotlin.tip6.KotlinTip6Activity" />
+        <activity android:name="com.sw.kotlin.tip7.KotlinTip7Activity" />
+        <activity android:name="com.sw.kotlin.AnkoToDoListActivity" />
+    </application>
+
+</manifest>

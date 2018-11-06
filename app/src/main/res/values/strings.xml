@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">kotlin_tips</string>
+    <string name="title_hint">请输入标题</string>
+    <string name="description_hint">请输入简介</string>
+    <string name="add_todo">添加代办事项</string>
+</resources>
