@@ -2,7 +2,7 @@
 
 buildscript {
     ext.kotlin_version = '1.2.10'
-    ext.anko_version='0.10.5'
+    ext.anko_version = '0.10.5'
     repositories {
         google()
         jcenter()
@@ -22,6 +22,8 @@ allprojects {
         jcenter()
         //anko
         maven { url "http://dl.bintray.com/kotlin/kotlin-dev" } //这是你需要加入的
+        //ui-kit的远程地址
+        maven { url "https://dl.bintray.com/kelly-bit/maven/" } //这是你需要加入的
     }
 }
 

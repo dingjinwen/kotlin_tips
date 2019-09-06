@@ -2,6 +2,8 @@ package com.sw.kotlin
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.util.Log
+import com.hk01.comm.ddutils.TimeUtils
 import com.sw.kotlin.tip2.KotlinTip2Activity
 import com.sw.kotlin.tip3.KotlinTip3Activity
 import com.sw.kotlin.tip3.invokeActivity
@@ -44,6 +46,10 @@ class MainActivity : AppCompatActivity() {
 
         toTip8.setOnClickListener {
             invokeActivity(AnkoToDoListActivity::class.java)
+        }
+
+        toTip9.setOnClickListener {
+            Log.d("djw", "" + TimeUtils.getYear())
         }
 
     }

@@ -22,30 +22,30 @@ import org.jetbrains.anko.verticalLayout
  */
 class AnkoEditFragment: Fragment() {
 
-    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return UI{
-            verticalLayout {
-                padding=dip(30)
-                var title=editText{
-                    id= R.id.todo_title
-                    hintResource=R.string.title_hint
-                }
-
-                var desc=editText {
-                    id= R.id.todo_desc
-                    hintResource=R.string.description_hint
-                }
-
-                var btn=button {
-                    id=R.id.todo_add
-                    textResource=R.string.add_todo
-                    setOnClickListener {
-                       Log.e("djw","点击---")
-                    }
-                }
-            }
-        }.view
-    }
+//    override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+//        return UI{
+//            verticalLayout {
+//                padding=dip(30)
+//                var title=editText{
+//                    id= R.id.todo_title
+//                    hintResource=R.string.title_hint
+//                }
+//
+//                var desc=editText {
+//                    id= R.id.todo_desc
+//                    hintResource=R.string.description_hint
+//                }
+//
+//                var btn=button {
+//                    id=R.id.todo_add
+//                    textResource=R.string.add_todo
+//                    setOnClickListener {
+//                       Log.e("djw","点击---")
+//                    }
+//                }
+//            }
+//        }.view
+//    }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
